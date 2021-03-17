@@ -1,2 +1,2 @@
 # tropess-tools
-Samples and utilities for using TROPESS products
+Sample code and utilities for using TROPESS products
