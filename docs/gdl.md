@@ -1,18 +1,10 @@
-# IDL or GDL
-
-## IDL
-
-If you have a working installation of IDL no additional setup is needed. Otherwise for $3,500+ you can buy and download IDL from [Harris Geospatial Solutions](https://www.l3harrisgeospatial.com/).
-
-Alternatively you may choose to build GDL (see below).  That is a bit more involved but it is free.
-
-## GDL
+# GDL
 
 GDL (GNU Data Language) is a free / libre open-source program that runs most IDL code. Specifically, GDL claims to be completely IDL 7.x compatible, and has many features from IDL 8. GDL is actively developed on [GitHub](https://github.com/gnudatalanguage/gdl). 
 
-### Installation
+## macOS
 
-#### macOS
+Install [XQuartz](https://www.xquartz.org)
 
 Install the Apple Command Line Tools:
 
@@ -89,7 +81,7 @@ You should see promt similar to this:
 GDL> 
 ```
 
-#### Linux (Ubuntu)
+## Linux (Ubuntu)
 
 ```bash
 sudo apt install gnudatalanguage
