@@ -17,7 +17,7 @@ source configure-gdl.sh
 ### Run
 
 ```bash
-gdl -q -e match_observations -args --products=CO,O3,PAN
+gdl -q -e match_observations -args --products CO,O3,PAN
 ```
 
 ### Debug
@@ -25,7 +25,7 @@ gdl -q -e match_observations -args --products=CO,O3,PAN
 Start GDL :
 
 ```bash
-gdl -args --products=CO,O3,PAN
+gdl -args --products CO,O3,PAN
 ```
 
 Compile programs:
