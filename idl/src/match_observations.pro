@@ -11,7 +11,7 @@ pro match_observations
     opts->parseArgs, error_message=errorMsg
     if (errorMsg ne '') then begin
         message, errorMsg, /informational, /noname
-        exit, status=1
+        exit, statu=1
     end
 
     if (opts->get('help') || opts->get('version')) then begin

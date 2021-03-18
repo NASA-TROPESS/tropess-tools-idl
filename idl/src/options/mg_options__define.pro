@@ -350,7 +350,7 @@ pro mg_options::parseArgs, args, error_message=errorMsg
       argumentExpected = 0B
       continue
     endif
-    
+
     ; long form
     if (strpos(_args[a], '--') eq 0L) then begin
       equalpos = strpos(_args[a], '=')
@@ -359,15 +359,14 @@ pro mg_options::parseArgs, args, error_message=errorMsg
       endif else begin
         optname = strmid(_args[a], 2L, equalpos - 2L)
       endelse
-      
+
       opt = self.longOptions->get(optname, found=found)
-      opt->getProperty, boolean=boolean
-      
       if (~found) then begin
         errorMsg = string(optname, format='(%"unknown option: --%s")')
         return
       endif
-      
+
+      opt->getProperty, boolean=boolean
       if (boolean) then begin
         opt->setValue
       endif else begin
