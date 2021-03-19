@@ -60,7 +60,7 @@ match_observations
 
 ## Visual Studio Code
 
-We also recommend using [Visual Studio Code](https://code.visualstudio.com/) for a streamlined development experience. 
+We recommend [Visual Studio Code](https://code.visualstudio.com/) for a streamlined development experience. 
 
 
 
