@@ -38,9 +38,20 @@ chmod 0600 ~/.netrc ~/.urs_cookies
 
 Test:
 
+`curl`
+
 ```bash
 curl -n -c ~/.urs_cookies -b ~/.urs_cookies -LJO --url \
 https://tropess.gesdisc.eosdis.nasa.gov/data/TROPESS_Special/TRPSDL2O3CRSWCF.1/doc/TROPESS_West_Coast_Fires_README_2-23-21.pdf
+```
+
+`wget`
+
+```bash
+wget --load-cookies ~/.urs_cookies --save-cookies ~/.urs_cookies \
+     --auth-no-challenge=on --keep-session-cookies \
+     --content-disposition \
+     https://tropess.gesdisc.eosdis.nasa.gov/data/TROPESS_Special/TRPSDL2O3CRSWCF.1/doc/TROPESS_West_Coast_Fires_README_2-23-21.pdf
 ```
 
 ## OpenDAP
