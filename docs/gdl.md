@@ -18,10 +18,10 @@ Install [Homebrew](https://brew.sh/):
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-Install required libraries:
+Install required packages:
 
 ```bash
-brew install cmake libffi gdbm mpdecimal sqlite glib libpthread-stubs xorgproto libxau libxdmcp libxcb libx11 libxext libxrender cairo eigen isl libmpc gcc hwloc open-mpi fftw jasper little-cms2 graphicsmagick gsl hdf5 netcdf icu4c harfbuzz pango udunits readline
+brew install wget curl cmake libffi gdbm mpdecimal sqlite glib libpthread-stubs xorgproto libxau libxdmcp libxcb libx11 libxext libxrender cairo eigen isl libmpc gcc hwloc open-mpi fftw jasper little-cms2 graphicsmagick gsl hdf5 netcdf icu4c harfbuzz pango udunits readline
 ```
 
 Build and install GDL:
